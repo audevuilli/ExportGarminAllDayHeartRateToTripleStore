@@ -34,11 +34,13 @@ I started this project to learn Python, RDF and SPARQL, thus please take note of
   3. The date you would like to download in the format YYYY-MM-DD
 * Example: `./downloadAndInsertGarminData.sh ExampleUserID ExamplePassword 2019-04-21` 
 * If all goes well, this is what the command line output will look like:
-  * `user@vboxub1810:~$ ./downloadAndInsertGarminData.sh userID password 2019-05-10`
-    `Logged in as <Real Name of UserID>`
-    `Download of data from garmin.com succesful.`
-    `Converting FIT to CSV complete.`
-    `Parsing CSV and inserting TTL file to triple store complete.`
-    `Cleanup complete.`
+  ```
+  user@vboxub1810:~$ ./downloadAndInsertGarminData.sh userID password 2019-05-10
+  Logged in as <Real Name of UserID>
+  Download of data from garmin.com succesful.
+  Converting FIT to CSV complete.
+  Parsing CSV and inserting TTL file to triple store complete.
+  Cleanup complete.
+  ```
 
 
